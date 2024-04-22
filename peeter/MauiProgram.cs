@@ -22,10 +22,10 @@ public static class MauiProgram
 			});
 
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 #endif
 
-		builder.Services.AddHttpClient(TmdbService.TmdbHttpClientName,
+        builder.Services.AddHttpClient(TmdbService.TmdbHttpClientName,
 			httpClient => httpClient.BaseAddress = new Uri("https://api.themoviedb.org"));
 
 		builder.Services.AddSingleton<TmdbService>();

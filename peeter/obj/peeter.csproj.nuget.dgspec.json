@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\1231233\\filmide-projekt-main\\peeter\\peeter.csproj": {}
+    "C:\\Users\\opilane\\source\\repos\\31232131-main\\peeter\\peeter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\1231233\\filmide-projekt-main\\peeter\\peeter.csproj": {
+    "C:\\Users\\opilane\\source\\repos\\31232131-main\\peeter\\peeter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\1231233\\filmide-projekt-main\\peeter\\peeter.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\31232131-main\\peeter\\peeter.csproj",
         "projectName": "peeter",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\1231233\\filmide-projekt-main\\peeter\\peeter.csproj",
+        "projectPath": "C:\\Users\\opilane\\source\\repos\\31232131-main\\peeter\\peeter.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\1231233\\filmide-projekt-main\\peeter\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\source\\repos\\31232131-main\\peeter\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -67,11 +67,11 @@
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.2.0, )"
+              "version": "[8.2.2, )"
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -189,11 +189,11 @@
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.2.0, )"
+              "version": "[8.2.2, )"
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -236,7 +236,7 @@
               "version": "[16.4.60, 16.4.60]"
             },
             {
-              "name": "Microsoft.iOS.Runtime.iossimulator-x64",
+              "name": "Microsoft.iOS.Runtime.ios-arm64",
               "version": "[16.4.60, 16.4.60]"
             },
             {
@@ -292,11 +292,11 @@
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.2.0, )"
+              "version": "[8.2.2, )"
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -396,11 +396,11 @@
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.2.0, )"
+              "version": "[8.2.2, )"
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -507,7 +507,7 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
+        "ios-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

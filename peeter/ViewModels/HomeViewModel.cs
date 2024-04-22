@@ -38,15 +38,31 @@ namespace peeter.ViewModels
             var topRatedList = medias[2];
             var actionList = medias[3];
 
-            TrendingMovie = trendingList.OrderBy(t => Guid.NewGuid())
-                                 .FirstOrDefault(t =>
-                                 !string.IsNullOrWhiteSpace(t.DisplayTitle)
-                                 && !string.IsNullOrWhiteSpace(t.Thumbnail));
-
             SetMediaCollection(trendingList, Trending);
             SetMediaCollection(netflixOriginalsList, NetflixOriginals);
             SetMediaCollection(topRatedList, TopRated);
             SetMediaCollection(actionList, ActionMovies);
+
+            if (trendingList?.Any() == true)
+            {
+                foreach (var trending in trendingList)
+                {
+                    Trending.Add(trending);
+                }
+            }
+
+            if (netflixOriginalsList?.Any() == true)
+            {
+                foreach (var original in NetflixOriginals)
+                {
+                    NetflixOriginals.Add(original);
+                }
+            }
+
+            TrendingMovie = trendingList.OrderBy(t => Guid.NewGuid())
+                                 .FirstOrDefault(t =>
+                                 !string.IsNullOrWhiteSpace(t.DisplayTitle)
+                                 && !string.IsNullOrWhiteSpace(t.Thumbnail));
 
         }
         private static void SetMediaCollection(IEnumerable<Media> medias, ObservableCollection<Media> collection)
